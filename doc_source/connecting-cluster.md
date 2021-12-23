@@ -120,7 +120,7 @@ The manifest file can be used only once for the registered cluster\. If you dele
 
 ## Step 2: Applying the manifest file<a name="eks-connector-apply"></a>
 
-Complete the connection by applying the Amazon EKS Connector manifest file to your Kubernetes cluster\. To do this, you must use the AWS CLI or `eksctl` for the registration methods described previously\. If the manifest is applied within three days, the Amazon EKS Connector registration expires\. If the cluster connection expires, the cluster must be deregistered before connecting the cluster again\.
+Complete the connection by applying the Amazon EKS Connector manifest file to your Kubernetes cluster\. To do this, you must use the AWS CLI or `eksctl` for the registration methods described previously\. If the manifest is not applied within three days, the Amazon EKS Connector registration expires\. If the cluster connection expires, the cluster must be deregistered before connecting the cluster again\.
 
 1. In the native environment of the cluster, you can apply the updated manifest file by running the following command:
 
